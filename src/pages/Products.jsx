@@ -81,7 +81,7 @@ const Products = () => {
             </div>
 
             {/* Download section */}
-            <div className='md w-11/12 md:w-2/3 rounded-xl flex justifty-centre items-center flex-col blue-metal-card mx-auto mb-5 mt-10'>
+            <div className='md w-11/12 md:w-2/3 rounded-xl flex justifty-centre items-center flex-col blue-metal-card mx-auto mb-10 mt-10'>
                 <h2 className='text-3xl p-5 text-center'>
                     Can't Find What You Need?
 

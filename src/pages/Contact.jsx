@@ -55,7 +55,7 @@ const Contact = () => {
 
 
             {/* Address Section */}
-            <section className="overflow-hidden shadow-xl rounded-lg border-none h-full flex flex-col w-[90vw] md:w-1/2 mt-16 mx-auto">
+            <section className="overflow-hidden shadow-lg rounded-lg h-full flex flex-col w-[90vw] md:w-1/2 mt-16 mx-auto">
                 <div className="bg-blue-50 p-6">
                     <h2 className="text-2xl font-medium text-[#36566d]">Get In Touch</h2>
                 </div>
@@ -84,13 +84,10 @@ const Contact = () => {
             <section className="bg-white py-16">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="max-w-6xl mx-auto">
-                        {/* Card */}
                         <div className="overflow-hidden shadow-lg rounded-lg border-none w-full">
-                            {/* Card Header */}
                             <div className="bg-blue-50 p-6">
                                 <h2 className="text-2xl font-medium text-[#36566d]">Find Us</h2>
                             </div>
-                            {/* Card Content / Map */}
                             <div className="h-[400px]">
                                 <iframe
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4474.682414511289!2d72.86275475252646!3d19.423446580849866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7a9b747bf5dc7%3A0x25cd218db9d15dc7!2sAERO%20ENTERPRISES!5e0!3m2!1sen!2sin!4v1746014066999!5m2!1sen!2sin"

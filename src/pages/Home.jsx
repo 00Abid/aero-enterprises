@@ -25,16 +25,16 @@ const Home = () => {
                         AERO ENTERPRISES
                     </h1>
                     <p className="text-l text-white mt-4">
-                        Your trusted Sheet metal partner
+                        Your Trusted Sheet Metal Supplier
                     </p>
                 </div>
             </div>
 
-            {/* Feature section */}
+            {/* Excellence section */}
             <div className="bg-white py-20">
                 <div className="md:text-center max-w-3xl mx-auto mb-15 px-4">
                     <h2 className="text-3xl text-black">
-                        Excellence in Sheet Metal Supplying
+                        Our Excellence
                     </h2>
                 </div>
 
@@ -65,7 +65,7 @@ const Home = () => {
 
             {/* Capabilities Section */}
             <div className=" py-16 bg-[#F5F7FA]">
-                <div className="text-center max-w-3xl mx-auto px-4">
+                <div className="md:text-center max-w-3xl mx-auto px-4">
                     <h2 className="text-3xl text-black">
                         Our Capabilities
                     </h2>
@@ -73,19 +73,19 @@ const Home = () => {
                 </div>
 
                 <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-20 px-4 sm:px-6 lg:px-8 mt-12">
-                    <div className="bg-white p-6 rounded-lg text-center shadow-sm">
+                    <div className="bg-white p-6 rounded-lg md:text-center shadow-sm">
 
                         <h3 className="text-lg font-semibold text-black">Precision Cutting</h3>
                         <p className="mt-2 text-gray-600">Clean and precise cuts with technology.</p>
                     </div>
 
-                    <div className="bg-white p-6 rounded-lg text-center shadow-sm">
+                    <div className="bg-white p-6 rounded-lg md:text-center shadow-sm">
 
                         <h3 className="text-lg font-semibold text-black">Material Sourcing</h3>
                         <p className="mt-2 text-gray-600">High-quality sheet metal from trusted suppliers.</p>
                     </div>
 
-                    <div className="bg-white p-6 rounded-lg text-center shadow-sm">
+                    <div className="bg-white p-6 rounded-lg md:text-center shadow-sm">
                         <h3 className="text-lg font-semibold text-black">Quality Assurance</h3>
                         <p className="mt-2 text-gray-600">Reliable quality through strict checks.</p>
                     </div>
@@ -93,7 +93,7 @@ const Home = () => {
                 </div>
             </div>
 
-            {/* Whu Choose Us*/}
+            {/* Why Choose Us*/}
             <div className='py-16 flex flex-col md:flex-row justify-evenly items-center gap-2 '>
                 <div className="max-w-3xl mx-auto px-4">
                     <h2 className="text-3xl text-black">
@@ -137,18 +137,55 @@ const Home = () => {
                 </div>
             </div>
 
+
+            {/* Group of companies Section */}
+            <div className=" py-16 bg-[#F5F7FA]">
+                <div className="md:text-center max-w-3xl mx-auto px-4">
+                    <h2 className="text-3xl text-black">
+                        Group of Companies
+                    </h2>
+
+                </div>
+
+                <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-20 px-4 sm:px-6 lg:px-8 mt-12">
+                    <a href="https://smcw.netlify.app/" target='_blank'>
+                        <div className="bg-white p-6 rounded-lg md:text-center shadow-sm h-44 flex flex-col justify-center item-centre">
+                            <h3 className="text-lg font-semibold text-black">SAGAR METAL CUTTING WORKS</h3>
+                            <p className="mt-2 text-gray-600">Turning Sheet Metals into Precision Masterpieces</p>
+                        </div>
+                    </a>
+
+                    <a href="https://aap.vercel.app/" target='_blank'>
+                        <div className="bg-white p-6 rounded-lg md:text-center shadow-sm h-44 flex flex-col justify-center item-centre">
+
+                            <h3 className="text-lg font-semibold text-black">AERO AUTOMOTIVE PARTS</h3>
+                            <p className="mt-2 text-gray-600">Precision Parts for Peak Performance</p>
+                        </div>
+                    </a>
+
+                    <a href="https://alr.vercel.app" target='_blank'>
+                        <div className="bg-white p-6 rounded-lg md:text-center shadow-sm h-44 flex flex-col justify-center item-centre ">
+
+                            <h3 className="text-lg font-semibold text-black">AERO LIGHT RAYS</h3>
+                            <p className="mt-2 text-gray-600">Lighting the Way to a Brighter Tomorrow</p>
+                        </div>
+                    </a>
+
+
+                </div>
+            </div>
+
+
             {/* Download section */}
-            <div className='md w-11/12 md:w-2/3 rounded-xl flex justifty-centre items-center flex-col blue-metal-card mx-auto mb-5'>
+            <div className='md w-11/12 md:w-2/3 rounded-xl flex justifty-centre items-center flex-col blue-metal-card mx-auto mb-10 mt-10'>
                 <h2 className='text-3xl p-5 text-center'>
                     Download our Catalogue
                 </h2>
                 <p className='px-6  text-center'>
                     Get detailed information about our products, specifications in our catalogue
                 </p>
-                <a href="/AE-catalogue.pdf" download>
-                    <button className="cursor-pointer px-4 py-2 my-6 bg-gray-300 text-black rounded-lg font-semibold shadow-md mb-8">
-                        Download
-                    </button>
+                <a href="/AE-catalogue.pdf" download className="cursor-pointer px-4 py-2 my-6 bg-gray-300 text-black rounded-lg font-semibold shadow-md mb-8">
+                    Download
                 </a>
             </div>
         </section>

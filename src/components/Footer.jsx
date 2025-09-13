@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <footer className="bg-[#36566d]">
-            <div className="container py-5 mx-auto flex items-center justify-evenly">
+            <div className="container py-5 mx-auto flex items-center justify-evenly ">
                 <a
                     href="#"
                     className="flex title-font font-medium items-center md:justify-start justify-center text-white "
