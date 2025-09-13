@@ -81,20 +81,18 @@ const Products = () => {
             </div>
 
             {/* Download section */}
-            <div className='md w-11/12 md:w-2/3 rounded-xl flex justifty-centre items-center flex-col blue-metal-card mx-auto mb-10 mt-10'>
-                <h2 className='text-3xl p-5 text-center'>
-                    Can't Find What You Need?
-
-                </h2>
-                <p className='px-6  text-center'>
-                    We offer custom sheet metal solutions tailored to your requirements.
-
-                </p>
-                <a href="/Contact.jsx">
-                    <button className="cursor-pointer px-4 py-2 my-6 bg-gray-300 text-black rounded-lg font-semibold shadow-md mb-8">
-                        Contact Our Team
-                    </button>
-                </a>
+            <div className='flex items-center justify-center h-[60vh]'>
+                <div className="w-11/12 md:w-2/3 rounded-xl flex justify-center items-center flex-col blue-metal-card mx-auto">
+                    <h2 className="text-3xl p-5 text-center">Download our Catalogue</h2>
+                    <p className="px-6 text-center">
+                        Get detailed information about our products and specifications in our catalogue
+                    </p>
+                    <a href="/AE-catalogue.pdf" download>
+                        <button className="cursor-pointer px-4 py-2 my-6 bg-gray-300 text-black rounded-lg font-semibold shadow-md mb-6">
+                            Download
+                        </button>
+                    </a>
+                </div>
             </div>
         </section>
     )
