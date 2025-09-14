@@ -55,7 +55,7 @@ const Contact = () => {
 
 
             {/* Address Section */}
-            <section className="overflow-hidden shadow-lg rounded-lg h-full flex flex-col w-[90vw] md:w-1/2 mt-16 mx-auto">
+            <section className="overflow-hidden shadow-lg rounded-lg h-full flex flex-col w-[90vw] md:w-1/2 mt-16 mb-3 mx-auto" data-aos="zoom-in-up">
                 <div className="bg-blue-50 p-6">
                     <h2 className="text-2xl font-medium text-[#36566d]">Get In Touch</h2>
                 </div>
@@ -81,7 +81,7 @@ const Contact = () => {
 
 
             {/* map Section */}
-            <section className="bg-white py-16">
+            <section className="bg-white py-16 shadow-lg" data-aos="zoom-in-up">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="max-w-6xl mx-auto">
                         <div className="overflow-hidden shadow-lg rounded-lg border-none w-full">

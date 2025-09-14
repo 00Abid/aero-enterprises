@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from "react-router-dom";
+
 
 const Products = () => {
 
@@ -51,13 +53,14 @@ const Products = () => {
                     <div
                         key={index}
                         className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden flex flex-col mx-4 md:mx-10"
+                        data-aos="zoom-in-up"
                     >
                         {/* Image */}
                         <div className="relative h-48 overflow-hidden">
                             <img
                                 src={product.img}
                                 alt={product.type}
-                                className="w-full h-full object-contain transition-transform duration-500 hover:scale-105"
+                                className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                             />
                         </div>
 
@@ -70,7 +73,7 @@ const Products = () => {
 
                             <div className="mt-auto">
                                 <button
-                                    className="w-full bg-[#36566d] hover:bg-[#2a435a] text-white py-2 px-4 rounded transition"
+                                    className="w-full dark-metal-card hover:scale-101 text-white py-2 px-4 rounded transition"
                                 >
                                     Request Quote
                                 </button>
@@ -81,17 +84,18 @@ const Products = () => {
             </div>
 
             {/* Download section */}
-            <div className='flex items-center justify-center h-[60vh]'>
-                <div className="w-11/12 md:w-2/3 rounded-xl flex justify-center items-center flex-col blue-metal-card mx-auto">
-                    <h2 className="text-3xl p-5 text-center">Download our Catalogue</h2>
+            <div className='flex items-center justify-center h-72 md:h-[60vh] mt-6'>
+                <div className="w-11/12 md:w-2/3 rounded-xl flex justify-center items-center flex-col blue-metal-card mx-auto" data-aos="zoom-in-up">
+                    <h2 className="text-3xl p-5 text-center">Can't Find What You Need?</h2>
                     <p className="px-6 text-center">
-                        Get detailed information about our products and specifications in our catalogue
+                        We offer custom sheet metal solutions tailored to your requirements
                     </p>
-                    <a href="/AE-catalogue.pdf" download>
+                    <Link to="/contact">
                         <button className="cursor-pointer px-4 py-2 my-6 bg-gray-300 text-black rounded-lg font-semibold shadow-md mb-6">
-                            Download
+                            Contact Our Team
                         </button>
-                    </a>
+                    </Link>
+
                 </div>
             </div>
         </section>

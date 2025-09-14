@@ -14,6 +14,14 @@
   animation: metal-shimmer 6s ease-in-out infinite;
 }
 
+.dark-metal-card {
+  @apply rounded-lg shadow-md text-white;
+  background-image: linear-gradient(45deg, #030b16, #36566d, #030b16);
+  background-size: 200% 200%;
+  animation: metal-shimmer 6s ease-in-out infinite;
+}
+
+
 @keyframes metal-shimmer {
   0% {
     background-position: 0% 50%;
