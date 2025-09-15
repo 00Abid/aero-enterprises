@@ -161,7 +161,7 @@ const Home = () => {
 
             {/* Download section */}
             <div className='bg-[#F5F7FA] flex items-center justify-center h-[50vh]'>
-                <div className="w-11/12 md:w-2/3 rounded-xl flex justify-center items-center flex-col blue-metal-card mx-auto" data-aos="zoom-in-up">
+                <div className="w-11/12 md:w-2/3 h-auto rounded-xl flex justify-center items-center flex-col blue-metal-card mx-auto" data-aos="zoom-in-up">
                     <h2 className="text-3xl p-5 text-center">Download our Catalogue</h2>
                     <p className="px-6 text-center">
                         Get detailed information about our products and specifications in our catalogue
