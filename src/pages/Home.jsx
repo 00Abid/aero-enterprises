@@ -38,7 +38,7 @@ const Home = () => {
     ];
 
     return (
-        <section className='bg-white'>
+        <section className='bg-white overflow-hidden'>
             {/* Hero Section */}
             <div className="relative w-full h-screen">
                 <video
@@ -92,17 +92,17 @@ const Home = () => {
                 </div>
 
                 <div className="mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-4">
-                    <div className="dark-metal-card p-6 rounded-lg md:text-center shadow-sm" data-aos="fade-right">
+                    <div className="h-32 dark-metal-card p-6 rounded-lg md:text-center shadow-sm" data-aos="fade-right">
                         <h3 className="text-lg font-semibold">Precision Cutting</h3>
                         <p className="mt-2 ">Clean and precise cuts with technology.</p>
                     </div>
 
-                    <div className="dark-metal-card p-6 rounded-lg md:text-center shadow-sm" data-aos="fade-right">
+                    <div className="h-32 dark-metal-card p-6 rounded-lg md:text-center shadow-sm" data-aos="fade-right">
                         <h3 className="text-lg font-semibold">Material Sourcing</h3>
                         <p className="mt-2 ">High-quality sheet metal from trusted suppliers.</p>
                     </div>
 
-                    <div className="dark-metal-card p-6 rounded-lg md:text-center shadow-sm" data-aos="fade-right">
+                    <div className="h-32 dark-metal-card p-6 rounded-lg md:text-center shadow-sm" data-aos="fade-right">
                         <h3 className="text-lg font-semibold">Quality Assurance</h3>
                         <p className="mt-2 ">Reliable quality through strict checks.</p>
                     </div>
@@ -111,8 +111,10 @@ const Home = () => {
 
             {/* Why Choose Us */}
             <div className="py-16 flex flex-col md:flex-row justify-evenly items-start gap-8">
-                <div className="max-w-3xl mx-auto px-4">
-                    <h2 className="text-3xl text-black">Why Choose Us</h2>
+                <div className="max-w-3xl mx-auto px-4 flex flex-col gap-10">
+                    <div>
+                        <h2 className="text-3xl text-black">Why Choose Us</h2>
+                    </div>
                     <div className="flex flex-col gap-8 mt-8">
                         <div data-aos="fade-left">
                             <h3 className="text-lg font-semibold text-black">Industry Leading Quality</h3>
@@ -135,7 +137,7 @@ const Home = () => {
             </div>
 
             {/* Group of Companies Section */}
-            <div className="py-16 bg-[#F5F7FA]">
+            <div className="pt-16 bg-[#F5F7FA]">
                 <div className="md:text-center max-w-3xl mx-auto px-4 mb-8">
                     <h2 className="text-3xl text-black">Group of Companies</h2>
                 </div>
@@ -158,14 +160,14 @@ const Home = () => {
             </div>
 
             {/* Download section */}
-            <div className='flex items-center justify-center h-72 md:h-[60vh]'>
+            <div className='bg-[#F5F7FA] flex items-center justify-center h-[50vh]'>
                 <div className="w-11/12 md:w-2/3 rounded-xl flex justify-center items-center flex-col blue-metal-card mx-auto" data-aos="zoom-in-up">
                     <h2 className="text-3xl p-5 text-center">Download our Catalogue</h2>
                     <p className="px-6 text-center">
                         Get detailed information about our products and specifications in our catalogue
                     </p>
                     <a href="/AE-catalogue.pdf" download>
-                        <button className="cursor-pointer px-4 py-2 my-6 bg-gray-300 text-black rounded-lg font-semibold shadow-md mb-6">
+                        <button className="cursor-pointer px-4 py-2 my-6 dark-metal-card rounded-lg font-semibold shadow-md mb-6">
                             Download
                         </button>
                     </a>

@@ -31,7 +31,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='w-11/12  border-t-1 border-black mx-auto'>
-                <p className=' m-5 text-white text-center'>
+                <p className='text-xs m-5 text-white text-center'>
                     © {new Date().getFullYear()} AERO ENTERPRISES <br />All Rights Reserved
                 </p>
             </div>

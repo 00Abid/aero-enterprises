@@ -52,7 +52,7 @@ const Products = () => {
                 {Patra.map((product, index) => (
                     <div
                         key={index}
-                        className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden flex flex-col mx-4 md:mx-10"
+                        className="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden flex flex-col mx-4 md:mx-10"
                         data-aos="zoom-in-up"
                     >
                         {/* Image */}
@@ -60,7 +60,7 @@ const Products = () => {
                             <img
                                 src={product.img}
                                 alt={product.type}
-                                className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                                className="w-full h-full object-contain transition-transform duration-500 hover:scale-105"
                             />
                         </div>
 
@@ -84,14 +84,14 @@ const Products = () => {
             </div>
 
             {/* Download section */}
-            <div className='flex items-center justify-center h-72 md:h-[60vh] mt-6'>
+            <div className='flex items-center justify-center h-[50vh]'>
                 <div className="w-11/12 md:w-2/3 rounded-xl flex justify-center items-center flex-col blue-metal-card mx-auto" data-aos="zoom-in-up">
-                    <h2 className="text-3xl p-5 text-center">Can't Find What You Need?</h2>
+                    <h2 className="text-3xl p-5 text-center">Looking for Assistance?</h2>
                     <p className="px-6 text-center">
                         We offer custom sheet metal solutions tailored to your requirements
                     </p>
                     <Link to="/contact">
-                        <button className="cursor-pointer px-4 py-2 my-6 bg-gray-300 text-black rounded-lg font-semibold shadow-md mb-6">
+                        <button className="cursor-pointer px-4 py-2 my-6 dark-metal-card  rounded-lg font-semibold shadow-md mb-6">
                             Contact Our Team
                         </button>
                     </Link>
