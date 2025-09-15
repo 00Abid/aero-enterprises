@@ -28,12 +28,12 @@ const Home = () => {
         {
             name: 'AERO AUTOMOTIVE PARTS',
             desc: 'Precision Parts for Peak Performance',
-            url: 'https://aeroautomotiveparts.vercel.app/',
+            url: 'https://aeroautomotive.vercel.app/',
         },
         {
-            name: 'AERO LED',
+            name: 'AERO LED LIGHTING SOLUTIONS',
             desc: 'Lighting the Way to a Brighter Tomorrow',
-            url: 'https://aerolightrays.vercel.app',
+            url: 'https://aeroled.vercel.app',
         },
     ];
 
