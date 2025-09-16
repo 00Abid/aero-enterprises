@@ -1,0 +1,99 @@
+{
+  "website": {
+    "name": "AERO ENTERPRISES",
+    "domain": "aeroenterprises.vercel.app",
+    "tagline": "Your Trusted Sheet Metal Supplier",
+    "description": "AERO ENTERPRISES is your trusted partner for precision sheet metal supply. We offer high-quality, custom metal solutions tailored to your needs. Serving industries nationwide with excellence and reliability."
+  },
+  "pages": [
+    {
+      "url": "/",
+      "title": "AERO ENTERPRISES - Your Trusted Sheet Metal Supplier",
+      "description": "AERO ENTERPRISES offers premium sheet metal products and solutions for various industrial applications. We provide high-quality materials with expert engineering and state-of-the-art facilities.",
+      "keywords": ["sheet metal supplier", "metal fabrication", "industrial sheet metal", "precision metal", "custom metal solutions"],
+      "main_content": "Home page featuring company overview, excellence features, and affiliated companies including SAGAR METAL CUTTING WORKS, AERO AUTOMOTIVE PARTS, and AERO LED LIGHTING SOLUTIONS."
+    },
+    {
+      "url": "/products",
+      "title": "Our Products - AERO ENTERPRISES",
+      "description": "Explore our premium sheet metal products including Cold Rolled Coil (CRC), Hot Rolled (HR), Galvanized Iron (GI), Pickled and Oiled, and Stainless Steel sheets for various industrial applications.",
+      "keywords": ["CRC sheet", "HR sheet", "GI sheet", "pickle sheet", "stainless steel sheet", "metal products"],
+      "main_content": "Products page showcasing various sheet metal types including CRC, HR, GI, Pickled and Oiled, and Stainless Steel sheets with descriptions and images."
+    },
+    {
+      "url": "/contact",
+      "title": "Contact Us - AERO ENTERPRISES",
+      "description": "Get in touch with AERO ENTERPRISES for inquiries and quotes about our sheet metal products. Located in Vasai, Maharashtra with dedicated customer service.",
+      "keywords": ["contact sheet metal supplier", "metal fabrication contact", "Vasai sheet metal", "sheet metal inquiry", "metal supplier contact"],
+      "main_content": "Contact page with location details (Gala No. 1, Khan Compound, Near Gausiya Weight Kata, Dhumal Nagar, Vasai - 401208 Palghar), phone numbers (+91 9096105019, +91 7972547196), and email (aeroenterprises00@gmail.com)."
+    }
+  ],
+  "business_info": {
+    "address": "Gala No. 1, Khan Compound, Near Gausiya Weight Kata, Dhumal Nagar, Vasai - 401208 Palghar",
+    "phone": ["+91 9096105019", "+91 7972547196"],
+    "email": "aeroenterprises00@gmail.com",
+    "hours": "Mon-Sat, 9AM-9PM",
+    "region": "Vasai, Maharashtra, India"
+  },
+  "products": [
+    {
+      "name": "COLD ROLLED COIL - CRC SHEET",
+      "description": "CRC sheets offer a smooth surface and precise thickness for superior formability. Ideal for automotive, appliances, and precision engineering applications."
+    },
+    {
+      "name": "HOT ROLLED - HR SHEET",
+      "description": "HR sheets provide cost-effective strength and ductility for structural uses. Perfect for construction, pipelines, and heavy machinery fabrication."
+    },
+    {
+      "name": "GALVANIZED IRON - GI Sheet",
+      "description": "GI sheets feature a zinc coating for excellent corrosion resistance. Widely used in roofing, cladding, and HVAC systems."
+    },
+    {
+      "name": "PICKLED AND OILED - PICKLE SHEET",
+      "description": "Pickle sheets have a clean, scale-free surface for enhanced workability. Suitable for automotive, tubing, and structural fabrications."
+    },
+    {
+      "name": "STAINLESS STEEL - SS SHEET",
+      "description": "SS sheets deliver corrosion resistance and a sleek finish for diverse applications. Ideal for kitchen equipment, architecture, and marine environments."
+    }
+  ],
+  "affiliated_companies": [
+    {
+      "name": "SAGAR METAL CUTTING WORKS",
+      "description": "Turning Sheet Metals into Precision Masterpieces",
+      "url": "https://smcw.netlify.app/"
+    },
+    {
+      "name": "AERO AUTOMOTIVE PARTS",
+      "description": "Precision Parts for Peak Performance",
+      "url": "https://aeroautomotive.vercel.app/"
+    },
+    {
+      "name": "AERO LED LIGHTING SOLUTIONS",
+      "description": "Lighting the Way to a Brighter Tomorrow",
+      "url": "https://aeroled.vercel.app"
+    }
+  ],
+  "seo_keywords": [
+    "aero enterprises",
+    "sheet metal supplier",
+    "metal fabrication",
+    "custom metal solutions",
+    "precision sheet metal",
+    "industrial sheet metal",
+    "CRC sheet supplier",
+    "HR sheet supplier",
+    "GI sheet supplier",
+    "stainless steel sheet supplier",
+    "Vasai sheet metal",
+    "Maharashtra metal supplier",
+    "sheet metal fabrication India",
+    "automotive sheet metal",
+    "industrial metal components",
+    "metal manufacturing",
+    "custom metal fabrication",
+    "precision metal parts",
+    "sheet metal for construction",
+    "metal supplier near me"
+  ]
+}
