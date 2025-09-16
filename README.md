@@ -16,7 +16,6 @@ Aero Enterprises is a React-based business website project built with Vite and s
 - React
 - Vite
 - Tailwind CSS
-- JavaScript/TypeScript (if applicable)
 
 ## Getting Started
 
