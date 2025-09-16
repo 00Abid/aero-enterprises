@@ -41,16 +41,9 @@ const Home = () => {
         <section className='bg-white overflow-hidden'>
             {/* Hero Section */}
             <div className="relative w-full h-screen">
-                <video
-                    className="absolute inset-0 w-full h-full object-cover"
-                    autoPlay
-                    muted
-                    loop
-                    playsInline
-                    poster="/hero-image.jpeg"
-                >
-                    <source src="/godown-video.mp4" type="video/mp4" />
-                </video>
+                <img src='/hero-image.png'
+                    className="absolute inset-0 w-full h-full object-cover">
+                </img>
 
                 {/* Dark overlay */}
                 <div className="absolute inset-0 bg-black/50"></div>
@@ -132,7 +125,7 @@ const Home = () => {
                 </div>
 
                 <div className="w-full md:w-1/3 mx-auto px-4 pt-8" data-aos="zoom-in-up">
-                    <img src="/hero-image.jpeg" alt="Sheet metal products" className="rounded-xl" />
+                    <img src="/why-choose.jpeg" alt="Sheet metal products" className="rounded-xl" />
                 </div>
             </div>
 
