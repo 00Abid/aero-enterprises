@@ -20,7 +20,7 @@ const Contact = () => {
             title: 'Call Us',
             description: (
                 <>
-                    +91 9096105019 <br />
+                    +91 8459121717 <br />
                     +91 7972547196 <br />
                     Mon-Sat, 9AM-9PM
                 </>
