@@ -15,4 +15,4 @@ User-agent: Slurp
 Allow: /
 
 # Sitemap location
-Sitemap: https://www.aeroenterprises.vercel.app/sitemap.xml
+Sitemap: https://aeroenterprises.shop/sitemap.xml

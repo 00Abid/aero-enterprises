@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="w-full py-5 mx-auto flex items-center justify-around ">
                 <div className=''>
                     <a
-                        href="#"
+                        href="https://aeroenterprises.shop/"
                         className=" text-white "
                     ><img src="/AE-logo.png" alt="" className='w-30 h-30 cover' />
                     </a>

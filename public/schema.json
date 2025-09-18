@@ -2,8 +2,8 @@
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "AERO ENTERPRISES",
-  "url": "https://www.aeroenterprises.vercel.app",
-  "logo": "https://www.aeroenterprises.vercel.app/AE-logo.png",
+  "url": "https://www.aeroenterprises.shop",
+  "logo": "https://www.aeroenterprises.shop/AE-logo.png", 
   "description": "AERO ENTERPRISES is your trusted partner for precision sheet metal supply. We offer high-quality, custom metal solutions tailored to your needs. Serving industries nationwide with excellence and reliability.",
   "address": {
     "@type": "PostalAddress",
@@ -37,6 +37,7 @@
     }
   ],
   "sameAs": [
+    "https://www.aeroenterprises.shop",
     "https://smcw.netlify.app/",
     "https://aeroautomotive.vercel.app/",
     "https://aeroledlighting.vercel.app/"
@@ -51,7 +52,7 @@
           "@type": "Product",
           "name": "COLD ROLLED COIL - CRC SHEET",
           "description": "CRC sheets offer a smooth surface and precise thickness for superior formability. Ideal for automotive, appliances, and precision engineering applications.",
-          "image": "https://www.aeroenterprises.vercel.app/crc-sheet.png"
+          "image": "https://www.aeroenterprises.shop/crc-sheet.png"
         }
       },
       {
@@ -60,7 +61,7 @@
           "@type": "Product",
           "name": "HOT ROLLED - HR SHEET",
           "description": "HR sheets provide cost-effective strength and ductility for structural uses. Perfect for construction, pipelines, and heavy machinery fabrication.",
-          "image": "https://www.aeroenterprises.vercel.app/hr-sheet.png"
+          "image": "https://www.aeroenterprises.shop/hr-sheet.png"
         }
       },
       {
@@ -69,7 +70,7 @@
           "@type": "Product",
           "name": "GALVANIZED IRON - GI Sheet",
           "description": "GI sheets feature a zinc coating for excellent corrosion resistance. Widely used in roofing, cladding, and HVAC systems.",
-          "image": "https://www.aeroenterprises.vercel.app/gi-sheet.png"
+          "image": "https://www.aeroenterprises.shop/gi-sheet.png"
         }
       },
       {
@@ -78,7 +79,7 @@
           "@type": "Product",
           "name": "PICKLED AND OILED - PICKLE SHEET",
           "description": "Pickle sheets have a clean, scale-free surface for enhanced workability. Suitable for automotive, tubing, and structural fabrications.",
-          "image": "https://www.aeroenterprises.vercel.app/pickle-sheet.png"
+          "image": "https://www.aeroenterprises.shop/pickle-sheet.png"
         }
       },
       {
@@ -87,7 +88,7 @@
           "@type": "Product",
           "name": "STAINLESS STEEL - SS SHEET",
           "description": "SS sheets deliver corrosion resistance and a sleek finish for diverse applications. Ideal for kitchen equipment, architecture, and marine environments.",
-          "image": "https://www.aeroenterprises.vercel.app/ss-sheet.png"
+          "image": "https://www.aeroenterprises.shop/ss-sheet.png"
         }
       }
     ]
