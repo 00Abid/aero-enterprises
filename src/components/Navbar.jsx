@@ -16,7 +16,7 @@ export default function Navbar() {
                 <div className="flex justify-between h-16 items-center">
                     {/* Logo */}
                     <Link to="/" className="flex items-center">
-                        <img src="/AE-logo.png" alt="Logo" className="h-30 w-30" />
+                        <img src="/AE-logo.webp" alt="Logo" className="h-30 w-30" />
                     </Link>
 
                     {/* Desktop Menu */}

@@ -30,7 +30,7 @@ const Home =
             {
                 name: 'AERO MOTOLITE',
                 desc: 'The Hub for Automotive and Light Solutions',
-                url: '',
+                url: 'https://aeromotolite.vercel.app/',
             },
         ];
 
@@ -38,7 +38,7 @@ const Home =
             <section className='bg-white overflow-hidden'>
                 {/* Hero Section */}
                 <div className="relative w-full h-screen">
-                    <img src='/hero-image.png'
+                    <img src='/hero-image.webp'
                         className="absolute inset-0 w-full h-full object-cover">
                     </img>
 
@@ -122,7 +122,7 @@ const Home =
                     </div>
 
                     <div className="w-full md:w-1/3 mx-auto px-4 pt-8" data-aos="zoom-in-up">
-                        <img src="/why-choose.jpeg" alt="Sheet metal products" className="rounded-xl" />
+                        <img src="/about-us.webp" alt="Sheet metal products" className="rounded-xl" />
                     </div>
                 </div>
 
@@ -142,9 +142,9 @@ const Home =
                             >
                                 <div className="dark-metal-card p-6 rounded-lg md:text-center shadow-sm h-44 flex flex-col justify-center md:items-center" data-aos="fade-right">
                                     <h3 className="text-lg font-semibold ">{company.name}</h3>
-                                    <p className="mt-2 ">{company.desc}</p>
-                                    <button className="mt-4 px-4 py-2 text-white flex gap-4 md:justify-center items-center transition-all duration-500 hover:scale-105 focus:scale-105 active:scale-105">
-                                        Check it
+                                    <p className="pt-1">{company.desc}</p>
+                                    <button className="pt-3 md:pt-5 text-white flex gap-4 md:justify-center items-center transition-all duration-500 hover:scale-105 focus:scale-105 active:scale-105">
+                                        Visit Site
                                         <MoveRight />
                                     </button>
 

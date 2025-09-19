@@ -8,27 +8,27 @@ const Products = () => {
         {
             type: "COLD ROLLED COIL - CRC SHEET",
             description: "CRC sheets offer a smooth surface and precise thickness for superior formability. Ideal for automotive, appliances, and precision engineering applications.",
-            img: "/crc-sheet.png"
+            img: "/crc-sheet.webp"
         },
         {
             type: "HOT ROLLED - HR SHEET",
             description: "HR sheets provide cost-effective strength and ductility for structural uses. Perfect for construction, pipelines, and heavy machinery fabrication.",
-            img: "hr-sheet.png "
+            img: "hr-sheet.webp"
         },
         {
             type: "GALVANIZED IRON - GI Sheet",
             description: "GI sheets feature a zinc coating for excellent corrosion resistance. Widely used in roofing, cladding, and HVAC systems.",
-            img: "/gi-sheet.png"
+            img: "/gi-sheet.webp"
         },
         {
             type: "PICKLED AND OILED - PICKLE SHEET",
             description: "Pickle sheets have a clean, scale-free surface for enhanced workability. Suitable for automotive, tubing, and structural fabrications.",
-            img: "pickle-sheet.png"
+            img: "pickle-sheet.webp"
         },
         {
             type: "STAINLESS STEEL - SS SHEET",
             description: "SS sheets deliver corrosion resistance and a sleek finish for diverse applications. Ideal for kitchen equipment, architecture, and marine environments.",
-            img: "ss-sheet.png"
+            img: "ss-sheet.webp"
         }
     ];
 

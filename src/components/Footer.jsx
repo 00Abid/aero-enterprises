@@ -10,7 +10,7 @@ const Footer = () => {
                     <a
                         href="https://aeroenterprises.shop/"
                         className=" text-white "
-                    ><img src="/AE-logo.png" alt="" className='w-30 h-30 cover' />
+                    ><img src="/AE-logo.webp" alt="" className='w-30 h-30 cover' />
                     </a>
                 </div>
                 <div className="flex gap-4">
