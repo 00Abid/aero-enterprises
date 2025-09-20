@@ -38,7 +38,7 @@ const Home =
             <section className='bg-white overflow-hidden'>
                 {/* Hero Section */}
                 <div className="relative w-full h-screen">
-                    <img src='/hero-image.webp alt="HomePage Sheet Metal coil" '
+                    <img src='/hero-image.webp' alt="HomePage Sheet Metal coil"
                         className="absolute inset-0 w-full h-full object-cover">
                     </img>
 
