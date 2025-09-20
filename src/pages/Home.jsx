@@ -38,7 +38,7 @@ const Home =
             <section className='bg-white overflow-hidden'>
                 {/* Hero Section */}
                 <div className="relative w-full h-screen">
-                    <img src='/hero-image.webp'
+                    <img src='/hero-image.webp alt="HomePage Sheet Metal coil" '
                         className="absolute inset-0 w-full h-full object-cover">
                     </img>
 
@@ -77,11 +77,11 @@ const Home =
 
                 {/* Capabilities Section */}
                 <div className="py-16 bg-[#F5F7FA]">
-                    <div className="md:text-center max-w-3xl mx-auto px-4 mb-8">
+                    <div className="md:text-center max-w-3xl md:mx-auto px-4 mb-8">
                         <h2 className="text-3xl text-black">Our Capabilities</h2>
                     </div>
 
-                    <div className="mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-4">
+                    <div className="md:mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-4">
                         <div className="h-32 dark-metal-card p-6 rounded-lg md:text-center shadow-sm" data-aos="fade-right">
                             <h3 className="text-lg font-semibold">Precision Cutting</h3>
                             <p className="mt-2 ">Clean and precise cuts with technology.</p>
@@ -145,7 +145,7 @@ const Home =
                                     <p className="pt-1">{company.desc}</p>
                                     <button className="pt-3 md:pt-5 text-white flex gap-4 md:justify-center items-center transition-all duration-500 hover:scale-105 focus:scale-105 active:scale-105">
                                         Visit Site
-                                        <MoveRight />
+                                        <MoveRight className='animate-bounce' />
                                     </button>
 
                                 </div>
