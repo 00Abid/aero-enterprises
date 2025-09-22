@@ -29,7 +29,7 @@ const Home =
             },
             {
                 name: 'AERO MOTOLITE',
-                desc: 'The Hub for Automotive and Light Solutions',
+                desc: 'Your Trusted Source for Automotive, Lights and Accesories ',
                 url: 'https://aeromotolite.vercel.app/',
             },
         ];
@@ -140,7 +140,7 @@ const Home =
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <div className="dark-metal-card p-6 rounded-lg md:text-center shadow-sm h-44 flex flex-col justify-center md:items-center" data-aos="fade-right">
+                                <div className="dark-metal-card p-6 rounded-lg md:text-center shadow-sm h-48 flex flex-col justify-center md:items-center" data-aos="fade-right">
                                     <h3 className="text-lg font-semibold ">{company.name}</h3>
                                     <p className="pt-1">{company.desc}</p>
                                     <button className="pt-3 md:pt-5 text-white flex gap-4 md:justify-center items-center transition-all duration-500 hover:scale-105 focus:scale-105 active:scale-105">
