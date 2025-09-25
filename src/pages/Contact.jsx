@@ -5,7 +5,7 @@ const Contact = () => {
 
     const items = [
         {
-            icon: <MapPin size={20} />,
+            icon: <MapPin size={14} />,
             title: 'Our Location',
             description: (
                 <>
@@ -16,18 +16,18 @@ const Contact = () => {
             ),
         },
         {
-            icon: <Phone size={20} />,
+            icon: <Phone size={14} />,
             title: 'Call Us',
             description: (
                 <>
                     +91 8459121717 <br />
-                    +91 7972547196 <br />
+                    +91 9096105019 <br />
                     Mon-Sat, 9AM-9PM
                 </>
             ),
         },
         {
-            icon: <Mail size={20} />,
+            icon: <Mail size={14} />,
             title: 'Email Us',
             description: (
                 <>

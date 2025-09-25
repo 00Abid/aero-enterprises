@@ -79,194 +79,213 @@
 
   <!-- Structured Data (Schema.org) -->
   <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "AERO ENTERPRISES",
+  "url": "https://www.aeroenterprises.shop",
+  "logo": "https://www.aeroenterprises.shop/AE-logo.webp",
+  "description": "AERO ENTERPRISES is your trusted partner for precision sheet metal supply. We offer high-quality, custom metal solutions tailored to your needs. Serving industries nationwide with excellence and reliability.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Gala No. 1, Khan Compound, Near Gausiya Weight Kata, Dhumal Nagar",
+    "addressLocality": "Vasai",
+    "postalCode": "401208",
+    "addressRegion": "Maharashtra",
+    "addressCountry": "IN"
+  },
+  "contactPoint": [
     {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "AERO ENTERPRISES",
-      "url": "https://www.aeroenterprises.shop",
-      "logo": "https://www.aeroenterprises.shop/AE-logo.webp",
-      "description": "AERO ENTERPRISES is your trusted partner for precision sheet metal supply. We offer high-quality, custom metal solutions tailored to your needs. Serving industries nationwide with excellence and reliability.",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Gala No. 1, Khan Compound, Near Gausiya Weight Kata, Dhumal Nagar",
-        "addressLocality": "Vasai",
-        "postalCode": "401208",
-        "addressRegion": "Maharashtra",
-        "addressCountry": "IN"
-      },
-      "contactPoint": [
-        {
-          "@type": "ContactPoint",
-          "telephone": "+91-8459121717",
-          "contactType": "customer service",
-          "availableLanguage": ["English", "Hindi", "Marathi"]
-        },
-        {
-          "@type": "ContactPoint",
-          "telephone": "+91-8459121717",
-          "contactType": "sales",
-          "availableLanguage": ["English", "Hindi", "Marathi"]
-        }
-      ],
-      "email": "aeroenterprises00@gmail.com",
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-          "opens": "09:00",
-          "closes": "21:00"
-        }
-      ],
-      "sameAs": [
-        "https://www.aeroenterprises.shop",
-        "https://www.linkedin.com/company/aeroenterprises/",
-        "https://smcw.netlify.app/",
-        "https://aeroautomotive.vercel.app/",
-        "https://aeroled.vercel.app"
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Sheet Metal Products",
-        "itemListElement": [
-          {
-            "@type": "Product",
-            "name": "COLD ROLLED COIL - CRC SHEET",
-            "description": "CRC sheets offer a smooth surface and precise thickness for superior formability. Ideal for automotive, appliances, and precision engineering applications.",
-            "image": "https://www.aeroenterprises.shop/crc-sheet.webp",
-            "brand": {
-              "@type": "Brand",
-              "name": "AERO ENTERPRISES"
-            },
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "INR",
-              "price": "Contact for Quote",
-              "availability": "https://schema.org/InStock",
-              "seller": {
-                "@type": "Organization",
-                "name": "AERO ENTERPRISES"
-              }
-            },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.8",
-              "reviewCount": "25",
-              "bestRating": "5",
-              "worstRating": "1"
-            }
-          },
-          {
-            "@type": "Product",
-            "name": "HOT ROLLED - HR SHEET",
-            "description": "HR sheets provide cost-effective strength and ductility for structural uses. Perfect for construction, pipelines, and heavy machinery fabrication.",
-            "image": "https://www.aeroenterprises.shop/hr-sheet.webp",
-            "brand": {
-              "@type": "Brand",
-              "name": "AERO ENTERPRISES"
-            },
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "INR",
-              "price": "Contact for Quote",
-              "availability": "https://schema.org/InStock",
-              "seller": {
-                "@type": "Organization",
-                "name": "AERO ENTERPRISES"
-              }
-            },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.7",
-              "reviewCount": "32",
-              "bestRating": "5",
-              "worstRating": "1"
-            }
-          },
-          {
-            "@type": "Product",
-            "name": "GALVANIZED IRON - GI Sheet",
-            "description": "GI sheets feature a zinc coating for excellent corrosion resistance. Widely used in roofing, cladding, and HVAC systems.",
-            "image": "https://www.aeroenterprises.shop/gi-sheet.webp",
-            "brand": {
-              "@type": "Brand",
-              "name": "AERO ENTERPRISES"
-            },
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "INR",
-              "price": "Contact for Quote",
-              "availability": "https://schema.org/InStock",
-              "seller": {
-                "@type": "Organization",
-                "name": "AERO ENTERPRISES"
-              }
-            },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "reviewCount": "18",
-              "bestRating": "5",
-              "worstRating": "1"
-            }
-          },
-          {
-            "@type": "Product",
-            "name": "PICKLED AND OILED - PICKLE SHEET",
-            "description": "Pickle sheets have a clean, scale-free surface for enhanced workability. Suitable for automotive, tubing, and structural fabrications.",
-            "image": "https://www.aeroenterprises.shop/pickle-sheet.webp",
-            "brand": {
-              "@type": "Brand",
-              "name": "AERO ENTERPRISES"
-            },
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "INR",
-              "price": "Contact for Quote",
-              "availability": "https://schema.org/InStock",
-              "seller": {
-                "@type": "Organization",
-                "name": "AERO ENTERPRISES"
-              }
-            },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.6",
-              "reviewCount": "22",
-              "bestRating": "5",
-              "worstRating": "1"
-            }
-          },
-          {
-            "@type": "Product",
-            "name": "STAINLESS STEEL - SS SHEET",
-            "description": "SS sheets deliver corrosion resistance and a sleek finish for diverse applications. Ideal for kitchen equipment, architecture, and marine environments.",
-            "image": "https://www.aeroenterprises.shop/ss-sheet.webp",
-            "brand": {
-              "@type": "Brand",
-              "name": "AERO ENTERPRISES"
-            },
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "INR",
-              "price": "Contact for Quote",
-              "availability": "https://schema.org/InStock",
-              "seller": {
-                "@type": "Organization",
-                "name": "AERO ENTERPRISES"
-              }
-            },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.8",
-              "reviewCount": "29",
-              "bestRating": "5",
-              "worstRating": "1"
-            }
-          }
-        ]
-      }
+      "@type": "ContactPoint",
+      "telephone": "+91-8459121717",
+      "contactType": "customer service",
+      "availableLanguage": ["English", "Hindi", "Marathi"]
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+91-8459121717",
+      "contactType": "sales",
+      "availableLanguage": ["English", "Hindi", "Marathi"]
     }
-  </script>
+  ],
+  "email": "aeroenterprises00@gmail.com",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "opens": "09:00",
+      "closes": "21:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/company/aeroenterprises/",
+    "https://smcw.netlify.app/",
+    "https://aeroautomotive.vercel.app/",
+    "https://aeroled.vercel.app/"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Sheet Metal Products",
+    "itemListElement": [
+      {
+        "@type": "Product",
+        "@id": "https://www.aeroenterprises.shop/product/crc-sheet",
+        "name": "COLD ROLLED COIL - CRC SHEET",
+        "description": "CRC sheets offer a smooth surface and precise thickness for superior formability. Ideal for automotive, appliances, and precision engineering applications.",
+        "image": "https://www.aeroenterprises.shop/crc-sheet.webp",
+        "brand": { "@type": "Brand", "name": "AERO ENTERPRISES" },
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "INR",
+          "price": "60.0",
+          "priceValidUntil": "2027-12-25",
+          "availability": "https://schema.org/InStock",
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "IN",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+            "returnPolicyDays": "P7D"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": { "@type": "MonetaryAmount", "value": "0.0", "currency": "INR" },
+            "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "IN" }
+          },
+          "seller": { "@type": "Organization", "name": "AERO ENTERPRISES" }
+        },
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "reviewCount": "25" }
+      },
+      {
+        "@type": "Product",
+        "@id": "https://www.aeroenterprises.shop/product/hr-sheet",
+        "name": "HOT ROLLED - HR SHEET",
+        "description": "HR sheets provide cost-effective strength and ductility for structural uses. Perfect for construction, pipelines, and heavy machinery fabrication.",
+        "image": "https://www.aeroenterprises.shop/hr-sheet.webp",
+        "brand": { "@type": "Brand", "name": "AERO ENTERPRISES" },
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "INR",
+          "price": "60.0",
+          "priceValidUntil": "2027-12-25",
+          "availability": "https://schema.org/InStock",
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "IN",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+            "returnPolicyDays": "P7D"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": { "@type": "MonetaryAmount", "value": "0.0", "currency": "INR" },
+            "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "IN" }
+          },
+          "seller": { "@type": "Organization", "name": "AERO ENTERPRISES" }
+        },
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.7", "reviewCount": "32" }
+      },
+      {
+        "@type": "Product",
+        "@id": "https://www.aeroenterprises.shop/product/gi-sheet",
+        "name": "GALVANIZED IRON - GI Sheet",
+        "description": "GI sheets feature a zinc coating for excellent corrosion resistance. Widely used in roofing, cladding, and HVAC systems.",
+        "image": "https://www.aeroenterprises.shop/gi-sheet.webp",
+        "brand": { "@type": "Brand", "name": "AERO ENTERPRISES" },
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "INR",
+          "price": "60.0",
+          "priceValidUntil": "2027-12-25",
+          "availability": "https://schema.org/InStock",
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "IN",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+            "returnPolicyDays": "P7D"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": { "@type": "MonetaryAmount", "value": "0.0", "currency": "INR" },
+            "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "IN" }
+          },
+          "seller": { "@type": "Organization", "name": "AERO ENTERPRISES" }
+        },
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "18" }
+      },
+      {
+        "@type": "Product",
+        "@id": "https://www.aeroenterprises.shop/product/pickle-sheet",
+        "name": "PICKLED AND OILED - PICKLE SHEET",
+        "description": "Pickle sheets have a clean, scale-free surface for enhanced workability. Suitable for automotive, tubing, and structural fabrications.",
+        "image": "https://www.aeroenterprises.shop/pickle-sheet.webp",
+        "brand": { "@type": "Brand", "name": "AERO ENTERPRISES" },
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "INR",
+          "price": "60.0",
+          "priceValidUntil": "2027-12-25",
+          "availability": "https://schema.org/InStock",
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "IN",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+            "returnPolicyDays": "P7D"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": { "@type": "MonetaryAmount", "value": "0.0", "currency": "INR" },
+            "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "IN" }
+          },
+          "seller": { "@type": "Organization", "name": "AERO ENTERPRISES" }
+        },
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.6", "reviewCount": "22" }
+      },
+      {
+        "@type": "Product",
+        "@id": "https://www.aeroenterprises.shop/product/ss-sheet",
+        "name": "STAINLESS STEEL - SS SHEET",
+        "description": "SS sheets deliver corrosion resistance and a sleek finish for diverse applications. Ideal for kitchen equipment, architecture, and marine environments.",
+        "image": "https://www.aeroenterprises.shop/ss-sheet.webp",
+        "brand": { "@type": "Brand", "name": "AERO ENTERPRISES" },
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "INR",
+          "price": "60.0",
+          "priceValidUntil": "2027-12-25",
+          "availability": "https://schema.org/InStock",
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "IN",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+            "returnPolicyDays": "P7D"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": { "@type": "MonetaryAmount", "value": "0.0", "currency": "INR" },
+            "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "IN" }
+          },
+          "seller": { "@type": "Organization", "name": "AERO ENTERPRISES" }
+        },
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "reviewCount": "29" }
+      }
+    ]
+  }
+}
+</script>
+  <!-- End Structured Data -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZmCULaM6tU8ZlYj7V3zqX9zzTtmI3UksdQRVvoxMfooAo0+ynfC5QK4yZzKw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 </head>
 
 <body>
