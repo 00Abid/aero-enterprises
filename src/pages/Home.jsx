@@ -73,7 +73,7 @@ const Home =
                     {/* Hero Section */}
                     <div className="relative w-full h-screen min-h-[100vh] overflow-hidden hero-section">
                         <img src='/hero-image.webp' alt="Premium sheet metal coils and steel products at AERO ENTERPRISES manufacturing facility in Vasai"
-                            className="absolute inset-0 w-full h-full object-cover object-center hero-image" loading="eager">
+                            className="absolute inset-0 w-full h-full object-cover object-center hero-image">
                         </img>
 
                         {/* Dark overlay */}
