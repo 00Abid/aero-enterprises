@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Navbar from "./components/Navbar";
+import Breadcrumb from "./components/Breadcrumb";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
 import Contact from "./pages/Contact";
@@ -22,6 +23,7 @@ function App() {
     <Router>
       <div className="flex flex-col min-h-screen">
         <Navbar />
+        <Breadcrumb />
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />

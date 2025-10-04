@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import SEOHead from '../components/SEOHead';
 
 
 const Products = () => {
@@ -21,7 +22,7 @@ const Products = () => {
             img: "/gi-sheet.webp"
         },
         {
-            type: "PICKLED AND OILED - PICKLE SHEET",
+            type: "PICKLE SHEET",
             description: "Pickle sheets have a clean, scale-free surface for enhanced workability. Suitable for automotive, tubing, and structural fabrications.",
             img: "pickle-sheet.webp"
         },
@@ -34,71 +35,78 @@ const Products = () => {
 
 
     return (
-        <section className='bg-white'>
-            {/* Title Section */}
-            <div className='blue-metal w-full h-[30vh] flex justify-center items-center'>
-                <div className='ml-4'>
-                    <h2 className="text-3xl text-white  pb-4">
-                        Our Products
-                    </h2>
-                    <p className=' text-white'>
-                        Premium sheet metal products for various industrial applications.
-                    </p>
+        <>
+            <SEOHead
+                title="Sheet Metal Products - CRC, HR, GI, SS & Pickle Sheets | AERO ENTERPRISES"
+                description="Premium sheet metal products including CRC sheets, HR sheets, GI sheets, SS sheets, and Pickle sheets. High-quality materials for automotive, construction, and industrial applications in Maharashtra."
+                canonical="https://www.aeroenterprises.shop/products"
+            />
+            <section className='bg-white'>
+                {/* Title Section */}
+                <div className='blue-metal w-full h-[30vh] flex justify-center items-center'>
+                    <div className='ml-4'>
+                        <h1 className="text-3xl text-white pb-4">
+                            Our Products
+                        </h1>
+                        <p className=' text-white'>
+                            Premium sheet metal products for various industrial applications.</p>
+                    </div>
                 </div>
-            </div>
 
-            {/* products Section */}
-            <div className="grid md:grid-cols-3  gap-6 pt-20">
-                {Patra.map((product, index) => (
-                    <div
-                        key={index}
-                        className="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden flex flex-col mx-4 md:mx-10"
-                        data-aos="zoom-in-up"
-                    >
-                        {/* Image */}
-                        <div className="relative h-48 overflow-hidden">
-                            <img
-                                src={product.img}
-                                alt={product.type}
-                                className="w-full h-full object-contain transition-transform duration-500 hover:scale-105"
-                            />
-                        </div>
+                {/* products Section */}
+                <div className="grid md:grid-cols-3  gap-6 pt-20">
+                    {Patra.map((product, index) => (
+                        <div
+                            key={index}
+                            className="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden flex flex-col mx-4 md:mx-10"
+                            data-aos="zoom-in-up"
+                        >
+                            {/* Image */}
+                            <div className="relative h-48 overflow-hidden">
+                                <img
+                                    src={product.img}
+                                    alt={`${product.type} - High-quality sheet metal products by AERO ENTERPRISES for industrial applications`}
+                                    className="w-full h-full object-contain transition-transform duration-500 hover:scale-105"
+                                    loading="lazy"
+                                />
+                            </div>
 
-                        {/* Content */}
-                        <div className="p-4 flex flex-col flex-grow">
-                            <h3 className="text-lg font-medium mb-2 text-[#36566d]">
-                                {product.type}
-                            </h3>
-                            <p className="text-sm text-gray-600 mb-4">{product.description}</p>
+                            {/* Content */}
+                            <div className="p-4 flex flex-col flex-grow">
+                                <h3 className="text-lg font-medium mb-2 text-[#36566d]">
+                                    {product.type}
+                                </h3>
+                                <p className="text-sm text-gray-600 mb-4">{product.description}</p>
 
-                            <div className="mt-auto">
-                                <button
-                                    className="w-full dark-metal-card hover:scale-101 text-white py-2 px-4 rounded transition"
-                                >
-                                    Request Quote
-                                </button>
+                                <div className="mt-auto">
+                                    <button
+                                        className="w-full dark-metal-card hover:scale-101 text-white py-2 px-4 rounded transition"
+                                    >
+                                        Request Quote
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                ))}
-            </div>
-
-            {/* Download section */}
-            <div className='flex items-center justify-center h-[50vh]'>
-                <div className="w-11/12 md:w-2/3 rounded-xl flex justify-center items-center flex-col blue-metal-card mx-auto" data-aos="zoom-in-up">
-                    <h2 className="text-3xl p-5 text-center">Looking for Assistance?</h2>
-                    <p className="px-6 text-center">
-                        We offer custom sheet metal solutions tailored to your requirements
-                    </p>
-                    <Link to="/contact">
-                        <button className="cursor-pointer px-4 py-2 my-6 dark-metal-card  rounded-lg font-semibold shadow-md mb-6">
-                            Contact Our Team
-                        </button>
-                    </Link>
-
+                    ))}
                 </div>
-            </div>
-        </section>
+
+                {/* Download section */}
+                <div className='flex items-center justify-center h-[50vh]'>
+                    <div className="w-11/12 md:w-2/3 rounded-xl flex justify-center items-center flex-col blue-metal-card mx-auto" data-aos="zoom-in-up">
+                        <h2 className="text-3xl p-5 text-center">Looking for Assistance?</h2>
+                        <p className="px-6 text-center">
+                            We offer custom sheet metal solutions tailored to your requirements
+                        </p>
+                        <Link to="/contact">
+                            <button className="cursor-pointer px-4 py-2 my-6 dark-metal-card  rounded-lg font-semibold shadow-md mb-6">
+                                Contact Our Team
+                            </button>
+                        </Link>
+
+                    </div>
+                </div>
+            </section>
+        </>
     )
 }
 

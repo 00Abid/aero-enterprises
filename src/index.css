@@ -1,5 +1,40 @@
 @import "tailwindcss";
 
+/* Performance optimizations */
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mobile hero section fixes */
+@media (max-width: 768px) {
+  .hero-section {
+    min-height: 100vh;
+    min-height: 100dvh; /* Dynamic viewport height for mobile browsers */
+  }
+  
+  .hero-image {
+    object-position: center center;
+    min-height: 100vh;
+    min-height: 100dvh;
+  }
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
 .blue-metal-card {
   @apply rounded-xl shadow-lg text-white;
   background-image: linear-gradient(45deg, #36566d, #5590c0, #36566d);
@@ -20,7 +55,6 @@
   background-size: 200% 200%;
   animation: metal-shimmer 6s ease-in-out infinite;
 }
-
 
 @keyframes metal-shimmer {
   0% {

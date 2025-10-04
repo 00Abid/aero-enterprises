@@ -1,5 +1,6 @@
 import React from 'react'
 import { MapPin, Phone, Mail } from 'lucide-react';
+import SEOHead from '../components/SEOHead';
 
 const Contact = () => {
 
@@ -38,16 +39,20 @@ const Contact = () => {
     ];
 
     return (
-
-        <div className='bg-white'>
+        <>
+            <SEOHead 
+                title="Contact AERO ENTERPRISES - Sheet Metal Supplier in Vasai, Maharashtra"
+                description="Contact AERO ENTERPRISES for premium sheet metal products and services. Located in Vasai, Maharashtra. Call +91 8459121717 or email aeroenterprises00@gmail.com for quotes and inquiries."
+                canonical="https://www.aeroenterprises.shop/contact"
+            />
+            <div className='bg-white'>
             <section className=' blue-metal w-full h-[30vh] flex justify-center items-center'>
                 <div className='ml-4'>
-                    <h2 className="text-3xl text-white  pb-4">
-                        Contact Us
-                    </h2>
+                    <h1 className="text-3xl text-white pb-4">
+                        Contact us
+                    </h1>
                     <p className=' text-white'>
-                        Get in touch with our team for inquiries, quotes about our sheet metals.
-                    </p>
+                    Get in touch with our team for inquiries, quotes about our sheet metals.                    </p>
                 </div>
             </section>
 
@@ -106,6 +111,7 @@ const Contact = () => {
             </section>
 
         </div>
+        </>
     )
 }
 
